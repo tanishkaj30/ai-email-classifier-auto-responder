@@ -1,0 +1,13 @@
+Email Category: Sales
+
+Summary:
+User is asking about pricing plans and product details.
+
+Auto-Response Sent:
+"Thanks for reaching out! Our sales team will contact you shortly with pricing details."
+
+Logged Fields:
+- Sender Email
+- Subject
+- Category
+- Timestamp
