@@ -1,0 +1,22 @@
+Workflow Architecture – AI Email Classifier & Auto-Responder
+
+1. Gmail
+   - Fetches incoming emails using Gmail API.
+
+2. n8n Workflow
+   - Orchestrates the complete automation.
+   - Passes email content to the AI model.
+
+3. OpenAI API
+   - Classifies emails into predefined categories:
+     Job, Support, Sales, Spam, Other.
+   - Generates a short summary of the email.
+
+4. Decision Logic (IF Node)
+   - If Support → Send automated reply.
+   - If Job → Log email details.
+   - If Spam → Ignore email.
+
+5. Google Sheets
+   - Stores structured email data:
+     sender, subject, category, summary, timestamp.
